@@ -36,7 +36,18 @@ bool compareId(Student * x, Student * y){
  * The comparison should be done in a case sensitive manner.
  */
 bool compareName(Student * x, Student * y){
-
+    //combine both first and last name into a single string
+    string xFirst = x->getFirstName();
+    string xLast = x->getLastName();
+ 
+    string yFirst = y->getFirstName();
+    string yLast = y->getLastName();
+ 
+    string xFullName = xLast + xFirst;
+    string yFullName = yLast + yFirst;
+ 
+    //
+    return xFullName < yFullName;
 }
 
 /*
