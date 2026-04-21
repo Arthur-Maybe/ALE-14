@@ -26,7 +26,7 @@
  * Otherwise, return false.
  */
 bool compareId(Student * x, Student * y){
-
+    return (x.getID() < y.getID());
 }
 
 /*
