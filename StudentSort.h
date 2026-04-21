@@ -57,7 +57,16 @@ bool compareGpa(Student * x, Student * y){
  * This function should call list::sort in the C++ STL. 
  */
 void studentSort(list<Student *> & classRoll, int typeOfSort){
-
+    if (typeOfSort == 1){
+        classRoll.sort(compareId);
+    }
+    else if (typeOfSort == 2){
+        classRoll.sort(compareName);
+    }
+    else if (typeOfSort == 3){
+        classRoll.sort(compareGpa);
+    }
+    // else: do nothing
 }
 
 #endif
