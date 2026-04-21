@@ -44,7 +44,7 @@ bool compareName(Student * x, Student * y){
  * Otherwise, return false.
  */
 bool compareGpa(Student * x, Student * y){
-
+  return x->getGpa() < y->getGpa();
 }
 
 /*
