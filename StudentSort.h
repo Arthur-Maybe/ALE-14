@@ -4,11 +4,11 @@
  * below sorted by last name then first name
  * in ascending order.
  *
- * Group member #1: 
- * Group member #2: 
- * Group member #3: 
- * Group member #4: 
- * Group member #5: 
+ * Group member #1: Boyle, Cullen
+ * Group member #2: Nguyen, Arthur
+ * Group member #3: Nguyen Do, Giang
+ * Group member #4: Trinh, Dustin
+ * Group member #5: Vaughn, Cole
  * Group member #6: 
  *
  */
